@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/assets/newStyle.css" >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <%- include('partials/nav') %>
+    <h1>Contact Us</h1>
+    <p> Contact the coolest ninjas ever right here. Yeahhh!!!</p>
+    <p>Thanks for getting in touch</p>
+    <p> You contacted <%=data.who %> in the <%=data.department %> department</p>
+    <p> We will reply to you at <%=data.email %></p>
+    <!-- <p id="fun" hidden><%#data.department %></p> -->
+    <p><%#qs.dept %></p>
+    <p><%#qs.person %></p>  
+    <%#<!-- <script>
+        let fun = new Function(document.getElementById('fun').innerText);
+        console.log(fun);
+        fun();
+    </script> --> %>
+</body>
+</html>
